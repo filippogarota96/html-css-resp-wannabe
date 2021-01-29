@@ -161,6 +161,7 @@ img {
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
+    float: none;
     display: inline-block;
     width: 47%;
     margin-top: 30px;
@@ -211,7 +212,8 @@ img {
 
   #steps .row>.left,
   #steps .row>.central,
-  #steps .row>.right {
+  #steps .row>.right
+  {
     float: none;
     width: 100%;
     margin-top: 30px;
