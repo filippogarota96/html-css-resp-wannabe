@@ -78,12 +78,21 @@ img {
 
 @media screen and (max-width: 420px)  {
 
+  body {
+  background-color: #afcdf1;
+  }
+  h1, h3 {
+    color: #fff;
+    text-shadow: 2px 2px #405164;
+  }
+
   .row {
     width: 100%;
-    /* margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px; */
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(218,79,79,1) 6%, rgba(107,80,163,1) 8%, rgba(141,68,89,1) 14%, rgba(145,68,85,1) 15%, rgba(92,69,138,1) 29%, rgba(69,52,133,1) 40%, rgba(43,33,128,1) 56%, rgba(50,160,180,1) 74%);
     text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
   }
 
   #lezioni .row>.left,
@@ -100,6 +109,11 @@ img {
     float: none;
     width: 100%;
     margin-top: 30px;
+  }
 
-
+  .row img {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2% 2%;
+  }
 }
