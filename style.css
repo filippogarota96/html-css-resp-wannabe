@@ -116,4 +116,113 @@ img {
     border-radius: 10px;
     padding: 2% 2%;
   }
+
+  #lezioni .left, #lezioni .right{
+    color: #d4e231;
+  }
+
+  #steps .left, #steps .right {
+    color: #b03f3f;
+  }
+}
+
+
+@media screen and (max-width: 768px)  {
+  body {
+  background-color: #afcdf1;
+  }
+  h1, h3 {
+    color: #fff;
+    text-shadow: 2px 2px #405164;
+    margin-top: 10px;
+  }
+
+  .row {
+    width: 100%;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(218,79,79,1) 6%, rgba(107,80,163,1) 8%, rgba(141,68,89,1) 14%, rgba(145,68,85,1) 15%, rgba(92,69,138,1) 29%, rgba(69,52,133,1) 40%, rgba(43,33,128,1) 56%, rgba(50,160,180,1) 74%);
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+    display: block;
+    margin: 20px 0;
+    color: #d4e231;
+  }
+
+  #steps .row {
+    text-align: center;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    display: inline-block;
+    width: 47%;
+    margin-top: 30px;
+    color: #fff;
+    padding: 1%;
+  }
+
+  .row img {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2% 2%;
+  }
+
+
+  #steps .right {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 420px)  {
+
+  body {
+  background-color: #afcdf1;
+  }
+  h1, h3 {
+    color: #fff;
+    text-shadow: 2px 2px #405164;
+
+  }
+
+  .row {
+    width: 100%;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(218,79,79,1) 6%, rgba(107,80,163,1) 8%, rgba(141,68,89,1) 14%, rgba(145,68,85,1) 15%, rgba(92,69,138,1) 29%, rgba(69,52,133,1) 40%, rgba(43,33,128,1) 56%, rgba(50,160,180,1) 74%);
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+    display: block;
+    margin: 20px 0;
+    color: #d4e231;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    margin-top: 30px;
+    color: #b03f3f;
+    display: inline-block;
+  }
+
+  .row img {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2% 2%;
+  }
+
 }
